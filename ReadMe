@@ -1,0 +1,74 @@
+# Locale Web Scraper
+
+## Overview
+Locale Web Scraper is a flexible and modular web scraper designed to handle multiple domains with domain-specific configurations. It allows users to scrape and process data from various websites, outputting the data in a structured format.
+
+## Features
+- **Domain-Specific Parsing:** Handles different domains with unique parsing logic.
+- **Flexible Configuration:** Uses a `config.json` file to store domain-specific selectors.
+- **Structured Output:** Saves scraped data in CSV format, organized by domain.
+- **Logging and Summarization:** Maintains logs and ingestion summaries for tracking.
+
+## Installation
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/SaadhanaStudios/locale-web-scraper.git
+    cd locale-web-scraper
+    ```
+2. Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Usage
+1. Configure domain-specific selectors in `config.json`.
+2. Run the main script:
+    ```bash
+    python main.py
+    ```
+
+## Configuration
+- **`config.json`:** Contains domain-specific selectors.
+- **Example:**
+    ```json
+    {
+        "domains": {
+            "thehoneycombers.com": {
+                "selectors": {
+                    "main": "#genesis-content",
+                    "title": "h1.entry-title",
+                    "author": "p.entry-meta",
+                    "date": "p.entry-meta",
+                    "category": "h2",
+                    "activity_name": "h3",
+                    "images": "img",
+                    "description": "p",
+                    "external_links": "a"
+                }
+            }
+        }
+    }
+    ```
+
+## Contributing
+We welcome contributions! Please feel free to submit a pull request or open an issue if you have suggestions or find bugs.
+
+## License
+[Specify the license under which the project is distributed, if any]
+
+## Contact
+For any inquiries, please contact [your email address].
+
+
+Windows:
+
+Activate Virtual Environment
+.\myenv\Scripts\Activate
+
+Install Dependencies
+
+pip install selenium pandas beautifulsoup4
+
+Run Scraper.py
+
+python sraper.py
