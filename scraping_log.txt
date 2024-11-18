@@ -94,3 +94,15 @@
 2024-11-18 18:11:12,155 - INFO - Raw HTML content saved to previous_scrapes\thehoneycombers.com-best-water-activities-hong-kong_2.html
 2024-11-18 18:11:12,162 - INFO - Appended ingestion summary for https://thehoneycombers.com/hong-kong/best-water-activities-hong-kong/ to IngestionSummary.csv
 2024-11-18 18:11:12,191 - INFO - 9 rows appended to CollectedData.csv.
+2024-11-18 22:22:25,364 - INFO - Fetched the last 5 recent URLs from IngestionSummary.csv.
+2024-11-18 22:22:27,259 - INFO - Fetched the last 5 recent URLs from IngestionSummary.csv.
+2024-11-18 22:35:23,644 - INFO - Fetched the last 5 recent URLs from IngestionSummary.csv.
+2024-11-18 22:36:48,375 - INFO - Fetched the last 5 recent URLs from IngestionSummary.csv.
+2024-11-18 22:45:03,374 - INFO - Fetched the last 5 recent URLs from IngestionSummary.csv.
+2024-11-18 22:45:14,637 - INFO - Fetched the last 5 recent URLs from IngestionSummary.csv.
+2024-11-18 22:48:47,064 - INFO - Fetched the last 5 recent URLs from IngestionSummary.csv.
+2024-11-18 22:53:54,270 - INFO - Fetched the last 5 recent URLs from IngestionSummary.csv.
+2024-11-18 23:00:37,583 - INFO - Fetched the last 5 recent URLs from IngestionSummary.csv.
+2024-11-18 23:00:53,725 - INFO - Fetched the last 5 recent URLs from IngestionSummary.csv.
+2024-11-18 23:24:44,159 - INFO - Fetched the last 5 recent URLs from IngestionSummary.csv.
+2024-11-18 23:25:48,493 - INFO - Fetched the last 5 recent URLs from IngestionSummary.csv.
