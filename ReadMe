@@ -1,3 +1,128 @@
+Overview of the Locale Web Scraper Script
+The Locale Web Scraper is designed to scrape data from specified websites, process the data, and output it in a structured format. The script is highly configurable, allowing you to define domain-specific settings for scraping different types of content.
+
+Features
+Domain-Specific Parsing:
+
+The script is capable of handling multiple domains with unique parsing logic defined in a configuration file (config.json).
+
+Flexible Configuration:
+
+Uses a config.json file to store domain-specific selectors, making it easy to update or add new domains without modifying the main script.
+
+Structured Output:
+
+Scraped data is saved in CSV format, organized by domain for easy analysis and processing.
+
+Logging and Summarization:
+
+Maintains logs and ingestion summaries for tracking the scraping process, identifying issues, and ensuring data quality.
+
+Main Components of the Script
+1. Configuration File (config.json)
+This file contains domain-specific configurations for the web scraper. Here is an example structure:
+
+json
+{
+    "domains": {
+        "example.com": {
+            "selectors": {
+                "main": "#content",
+                "title": "h1.article-title",
+                "author": "p.author",
+                "date": "time.published",
+                "category": "span.category",
+                "activity_name": "h3.activity",
+                "images": "img",
+                "description": "div.description",
+                "external_links": "a"
+            }
+        }
+    }
+}
+2. Main Script (scraper.py)
+The main script includes several key functions and features:
+
+Imports and Setup:
+
+Imports necessary libraries like requests, BeautifulSoup, selenium, pandas, logging, and others.
+
+Sets up logging to track the scraping process.
+
+Functions:
+
+load_config():
+
+Loads the configuration from config.json.
+
+Returns a dictionary containing domain-specific settings.
+
+initialize_webdriver():
+
+Initializes and configures a Selenium WebDriver for browsing and scraping dynamic content.
+
+fetch_page_source(url):
+
+Uses Selenium to fetch the HTML content of a given URL.
+
+Handles waiting for elements to load and navigating the page as necessary.
+
+parse_page(html, selectors):
+
+Parses the HTML content using BeautifulSoup based on the provided selectors.
+
+Extracts data such as title, author, date, category, etc., according to the configuration.
+
+save_to_csv(data, filename):
+
+Saves the scraped data to a CSV file.
+
+Organizes the data based on the domain and ensures consistency in the output format.
+
+Workflow:
+
+Load Configuration:
+
+The script starts by loading the domain-specific configuration from config.json.
+
+Initialize WebDriver:
+
+Sets up Selenium WebDriver for dynamic content scraping.
+
+Fetch and Parse Data:
+
+Iterates through the list of URLs defined in the configuration.
+
+Fetches the page source and parses the content based on the selectors.
+
+Save Data:
+
+Saves the extracted data to CSV files, organized by domain.
+
+Logging and Error Handling:
+
+Logs the progress and any errors encountered during the scraping process.
+
+Provides a summary of the scraping operation.
+
+Example Usage
+Run the Script:
+
+bash
+python scraper.py
+Configure New Domain:
+
+Update config.json with new domain-specific selectors to extend the script's functionality.
+
+Summary
+Domain-Specific Parsing: Configurable via config.json.
+
+Flexible Configuration: Easily update or add new domains.
+
+Structured Output: Saves data in CSV format.
+
+Logging and Summarization: Tracks the scraping process.
+
 # Locale Web Scraper
 
 ## Overview

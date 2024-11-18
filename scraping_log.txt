@@ -84,3 +84,13 @@
 2024-11-15 16:31:41,792 - INFO - 9 rows appended to CollectedData.csv.
 2024-11-18 17:48:36,022 - INFO - Fetched the last 5 recent URLs from IngestionSummary.csv.
 2024-11-18 17:55:14,755 - INFO - Fetched the last 5 recent URLs from IngestionSummary.csv.
+2024-11-18 18:10:03,782 - INFO - Fetched the last 5 recent URLs from IngestionSummary.csv.
+2024-11-18 18:11:04,032 - INFO - WebDriver setup successfully.
+2024-11-18 18:11:12,029 - INFO - Successfully scraped URL: https://thehoneycombers.com/hong-kong/best-water-activities-hong-kong/ using selector: #genesis-content
+2024-11-18 18:11:12,080 - INFO - Successfully parsed HTML content - Article Name: Ready to get wet ‘n’ wild? Here are the best water activities in Hong Kong, Author: byElaine Wong, Date: 15 Sep 2021
+2024-11-18 18:11:12,084 - INFO - Scraping Information - URL: https://thehoneycombers.com/hong-kong/best-water-activities-hong-kong/, Article Name: Ready to get wet ‘n’ wild? Here are the best water activities in Hong Kong
+2024-11-18 18:11:12,097 - INFO - Successfully extracted data - Article Name: Ready to get wet ‘n’ wild? Here are the best water activities in Hong Kong, Number of activities: 9
+2024-11-18 18:11:12,140 - INFO - CSV file 'thehoneycombers.com-best-water-activities-hong-kong_2.csv' has been created and saved successfully in 'all_csv_outputs'.
+2024-11-18 18:11:12,155 - INFO - Raw HTML content saved to previous_scrapes\thehoneycombers.com-best-water-activities-hong-kong_2.html
+2024-11-18 18:11:12,162 - INFO - Appended ingestion summary for https://thehoneycombers.com/hong-kong/best-water-activities-hong-kong/ to IngestionSummary.csv
+2024-11-18 18:11:12,191 - INFO - 9 rows appended to CollectedData.csv.
