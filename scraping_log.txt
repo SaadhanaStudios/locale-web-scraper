@@ -1,0 +1,84 @@
+2024-11-13 16:13:39,206 - INFO - Created BulkIngestion.csv as it did not exist.
+2024-11-13 16:13:46,477 - INFO - Successfully scraped URL: https://thehoneycombers.com/hong-kong/ultimate-things-to-do-in-hong-kong/
+2024-11-13 16:13:46,536 - INFO - Successfully parsed HTML content
+2024-11-13 16:13:46,536 - INFO - URL Scraped: https://thehoneycombers.com/hong-kong/ultimate-things-to-do-in-hong-kong/
+2024-11-13 16:13:46,537 - INFO - Article Name: Hello Hong Kong! Here are 82 things to do in Hong Kong you must have on your bucket list
+2024-11-13 16:13:46,586 - INFO - Successfully extracted data
+2024-11-13 16:13:46,600 - INFO - CSV file 'thehoneycombers.com-ultimate-things-to-do-in-hong-kong.csv' has been created and saved successfully.
+2024-11-13 16:13:46,602 - INFO - Raw HTML content saved to previous_scrapes/thehoneycombers.com-ultimate-things-to-do-in-hong-kong.html
+2024-11-13 16:13:46,603 - INFO - Appended ingestion summary for https://thehoneycombers.com/hong-kong/ultimate-things-to-do-in-hong-kong/ to IngestionSummary.csv
+2024-11-13 16:13:46,615 - INFO - 85 rows appended to CollectedData.csv.
+2024-11-15 14:07:25,132 - INFO - Skipped duplicate URLs and selectors: [{'URL': 'https://thehoneycombers.com/hong-kong/ultimate-things-to-do-in-hong-kong/', 'Selector': '#genesis-content'}, {'URL': 'https://thehoneycombers.com/hong-kong/ultimate-things-to-do-in-hong-kong/', 'Selector': '#genesis-content'}]
+2024-11-15 14:07:36,233 - INFO - Successfully scraped URL: https://thehoneycombers.com/hong-kong/ultimate-things-to-do-in-hong-kong/
+2024-11-15 14:07:36,466 - INFO - Successfully parsed HTML content
+2024-11-15 14:07:36,467 - INFO - URL Scraped: https://thehoneycombers.com/hong-kong/ultimate-things-to-do-in-hong-kong/
+2024-11-15 14:07:36,468 - INFO - Article Name: Hello Hong Kong! Here are 82 things to do in Hong Kong you must have on your bucket list
+2024-11-15 14:07:36,577 - INFO - Successfully extracted data
+2024-11-15 14:07:36,635 - INFO - CSV file 'thehoneycombers.com-ultimate-things-to-do-in-hong-kong_1.csv' has been created and saved successfully.
+2024-11-15 14:07:36,644 - INFO - Raw HTML content saved to previous_scrapes/thehoneycombers.com-ultimate-things-to-do-in-hong-kong_1.html
+2024-11-15 14:07:36,655 - INFO - Appended ingestion summary for https://thehoneycombers.com/hong-kong/ultimate-things-to-do-in-hong-kong/ to IngestionSummary.csv
+2024-11-15 14:07:36,705 - INFO - 85 rows appended to CollectedData.csv.
+2024-11-15 14:07:40,258 - INFO - Cleared the contents of BulkIngestion.csv but kept the headers
+2024-11-15 14:12:48,376 - INFO - Skipped duplicate URLs and selectors: [{'URL': 'https://thehoneycombers.com/hong-kong/ultimate-things-to-do-in-hong-kong/', 'Selector': '#genesis-content'}, {'URL': 'https://thehoneycombers.com/hong-kong/ultimate-things-to-do-in-hong-kong/', 'Selector': '#genesis-content'}]
+2024-11-15 14:12:57,262 - INFO - Successfully scraped URL: https://thehoneycombers.com/hong-kong/ultimate-things-to-do-in-hong-kong/
+2024-11-15 14:12:57,453 - INFO - Successfully parsed HTML content
+2024-11-15 14:12:57,453 - INFO - URL Scraped: https://thehoneycombers.com/hong-kong/ultimate-things-to-do-in-hong-kong/
+2024-11-15 14:12:57,453 - INFO - Article Name: Hello Hong Kong! Here are 82 things to do in Hong Kong you must have on your bucket list
+2024-11-15 14:12:57,536 - INFO - Successfully extracted data
+2024-11-15 14:12:57,560 - INFO - CSV file 'thehoneycombers.com-ultimate-things-to-do-in-hong-kong_2.csv' has been created and saved successfully.
+2024-11-15 14:12:57,562 - INFO - Raw HTML content saved to previous_scrapes/thehoneycombers.com-ultimate-things-to-do-in-hong-kong_2.html
+2024-11-15 14:12:57,567 - INFO - Appended ingestion summary for https://thehoneycombers.com/hong-kong/ultimate-things-to-do-in-hong-kong/ to IngestionSummary.csv
+2024-11-15 14:12:57,617 - INFO - 85 rows appended to CollectedData.csv.
+2024-11-15 14:13:00,298 - INFO - Cleared the contents of BulkIngestion.csv but kept the headers
+2024-11-15 14:14:40,619 - INFO - Skipped duplicate URLs and selectors within bulk file: [{'URL': 'https://thehoneycombers.com/hong-kong/ultimate-things-to-do-in-hong-kong/', 'Selector': '#genesis-content'}, {'URL': 'https://thehoneycombers.com/hong-kong/ultimate-things-to-do-in-hong-kong/', 'Selector': '#genesis-content'}]
+2024-11-15 14:21:48,463 - INFO - Skipped duplicate URLs and selectors within bulk file: [{'URL': 'https://thehoneycombers.com/hong-kong/ultimate-things-to-do-in-hong-kong/', 'Selector': '#genesis-content'}, {'URL': 'https://thehoneycombers.com/hong-kong/ultimate-things-to-do-in-hong-kong/', 'Selector': '#genesis-content'}]
+2024-11-15 14:22:12,825 - INFO - WebDriver setup successfully.
+2024-11-15 14:22:14,771 - INFO - Cleared the contents of BulkIngestion.csv but kept the headers
+2024-11-15 14:23:03,622 - INFO - Fetched the last 5 recent URLs from IngestionSummary.csv.
+2024-11-15 14:23:21,579 - INFO - WebDriver setup successfully.
+2024-11-15 14:23:25,016 - INFO - Successfully scraped URL: https://thehoneycombers.com/hong-kong/ultimate-things-to-do-in-hong-kong/ using selector: main
+2024-11-15 14:23:25,241 - INFO - Successfully parsed HTML content - Article Name: Hello Hong Kong! Here are 82 things to do in Hong Kong you must have on your bucket list, Author: byHoneycombers, Date: 03 Oct 2024
+2024-11-15 14:23:25,242 - INFO - Scraping Information - URL: https://thehoneycombers.com/hong-kong/ultimate-things-to-do-in-hong-kong/, Article Name: Hello Hong Kong! Here are 82 things to do in Hong Kong you must have on your bucket list
+2024-11-15 14:23:25,370 - INFO - Successfully extracted data - Article Name: Hello Hong Kong! Here are 82 things to do in Hong Kong you must have on your bucket list, Number of activities: 85
+2024-11-15 14:23:25,432 - INFO - CSV file 'thehoneycombers.com-ultimate-things-to-do-in-hong-kong_3.csv' has been created and saved successfully in 'all_csv_outputs'.
+2024-11-15 14:23:25,443 - INFO - Raw HTML content saved to previous_scrapes/thehoneycombers.com-ultimate-things-to-do-in-hong-kong_3.html
+2024-11-15 14:23:25,475 - INFO - Appended ingestion summary for https://thehoneycombers.com/hong-kong/ultimate-things-to-do-in-hong-kong/ to IngestionSummary.csv
+2024-11-15 14:23:25,608 - INFO - 85 rows appended to CollectedData.csv.
+2024-11-15 14:49:37,226 - INFO - Skipped duplicate URLs and selectors within bulk file: [{'URL': 'https://thehoneycombers.com/hong-kong/ultimate-things-to-do-in-hong-kong/', 'Selector': '#genesis-content'}, {'URL': 'https://thehoneycombers.com/hong-kong/ultimate-things-to-do-in-hong-kong/', 'Selector': '#genesis-content'}]
+2024-11-15 14:49:53,584 - INFO - WebDriver setup successfully.
+2024-11-15 14:49:55,386 - INFO - Cleared the contents of BulkIngestion.csv but kept the headers
+2024-11-15 14:53:16,317 - INFO - Skipped duplicate URLs and selectors within bulk file: [{'URL': 'https://thehoneycombers.com/hong-kong/ultimate-things-to-do-in-hong-kong/', 'Selector': '#genesis-content'}, {'URL': 'https://thehoneycombers.com/hong-kong/ultimate-things-to-do-in-hong-kong/', 'Selector': '#genesis-content'}]
+2024-11-15 15:01:55,447 - INFO - Skipped duplicate URLs and selectors within bulk file: [{'URL': 'https://thehoneycombers.com/hong-kong/ultimate-things-to-do-in-hong-kong/', 'Selector': '#genesis-content'}, {'URL': 'https://thehoneycombers.com/hong-kong/ultimate-things-to-do-in-hong-kong/', 'Selector': '#genesis-content'}]
+2024-11-15 15:02:03,082 - INFO - Continuing without processing existing URL and selector combinations: [{'URL': 'https://thehoneycombers.com/hong-kong/ultimate-things-to-do-in-hong-kong/', 'Selector': '#genesis-content'}]
+2024-11-15 15:02:09,203 - INFO - WebDriver setup successfully.
+2024-11-15 15:02:12,359 - INFO - Cleared the contents of BulkIngestion.csv but kept the headers
+2024-11-15 15:06:34,303 - INFO - Fetched the last 5 recent URLs from IngestionSummary.csv.
+2024-11-15 15:06:57,268 - INFO - WebDriver setup successfully.
+2024-11-15 15:07:00,630 - INFO - Successfully scraped URL: https://thehoneycombers.com/hong-kong/ultimate-things-to-do-in-hong-kong/ using selector: main
+2024-11-15 15:07:00,822 - INFO - Successfully parsed HTML content - Article Name: Hello Hong Kong! Here are 82 things to do in Hong Kong you must have on your bucket list, Author: byHoneycombers, Date: 03 Oct 2024
+2024-11-15 15:07:00,823 - INFO - Scraping Information - URL: https://thehoneycombers.com/hong-kong/ultimate-things-to-do-in-hong-kong/, Article Name: Hello Hong Kong! Here are 82 things to do in Hong Kong you must have on your bucket list
+2024-11-15 15:07:00,956 - INFO - Successfully extracted data - Article Name: Hello Hong Kong! Here are 82 things to do in Hong Kong you must have on your bucket list, Number of activities: 85
+2024-11-15 15:07:00,984 - INFO - CSV file 'thehoneycombers.com-ultimate-things-to-do-in-hong-kong_4.csv' has been created and saved successfully in 'all_csv_outputs'.
+2024-11-15 15:07:00,987 - INFO - Raw HTML content saved to previous_scrapes/thehoneycombers.com-ultimate-things-to-do-in-hong-kong_4.html
+2024-11-15 15:07:00,991 - INFO - Appended ingestion summary for https://thehoneycombers.com/hong-kong/ultimate-things-to-do-in-hong-kong/ to IngestionSummary.csv
+2024-11-15 15:07:01,025 - INFO - 85 rows appended to CollectedData.csv.
+2024-11-15 15:17:16,742 - INFO - Fetched the last 5 recent URLs from IngestionSummary.csv.
+2024-11-15 15:17:41,150 - INFO - WebDriver setup successfully.
+2024-11-15 15:17:47,915 - INFO - Successfully scraped URL: https://thehoneycombers.com/hong-kong/best-water-activities-hong-kong/ using selector: #genesis-content
+2024-11-15 15:17:47,942 - INFO - Successfully parsed HTML content - Article Name: Ready to get wet ‘n’ wild? Here are the best water activities in Hong Kong, Author: byElaine Wong, Date: 15 Sep 2021
+2024-11-15 15:17:47,942 - INFO - Scraping Information - URL: https://thehoneycombers.com/hong-kong/best-water-activities-hong-kong/, Article Name: Ready to get wet ‘n’ wild? Here are the best water activities in Hong Kong
+2024-11-15 15:17:47,995 - INFO - Successfully extracted data - Article Name: Ready to get wet ‘n’ wild? Here are the best water activities in Hong Kong, Number of activities: 9
+2024-11-15 15:17:48,090 - INFO - CSV file 'thehoneycombers.com-best-water-activities-hong-kong.csv' has been created and saved successfully in 'all_csv_outputs'.
+2024-11-15 15:17:48,091 - INFO - Raw HTML content saved to previous_scrapes/thehoneycombers.com-best-water-activities-hong-kong.html
+2024-11-15 15:17:48,095 - INFO - Appended ingestion summary for https://thehoneycombers.com/hong-kong/best-water-activities-hong-kong/ to IngestionSummary.csv
+2024-11-15 15:17:48,100 - INFO - 9 rows appended to CollectedData.csv.
+2024-11-15 16:31:14,859 - INFO - Fetched the last 5 recent URLs from IngestionSummary.csv.
+2024-11-15 16:31:38,302 - INFO - WebDriver setup successfully.
+2024-11-15 16:31:41,731 - INFO - Successfully scraped URL: https://thehoneycombers.com/hong-kong/best-water-activities-hong-kong/ using selector: #genesis-content
+2024-11-15 16:31:41,761 - INFO - Successfully parsed HTML content - Article Name: Ready to get wet ‘n’ wild? Here are the best water activities in Hong Kong, Author: byElaine Wong, Date: 15 Sep 2021
+2024-11-15 16:31:41,761 - INFO - Scraping Information - URL: https://thehoneycombers.com/hong-kong/best-water-activities-hong-kong/, Article Name: Ready to get wet ‘n’ wild? Here are the best water activities in Hong Kong
+2024-11-15 16:31:41,776 - INFO - Successfully extracted data - Article Name: Ready to get wet ‘n’ wild? Here are the best water activities in Hong Kong, Number of activities: 9
+2024-11-15 16:31:41,785 - INFO - CSV file 'thehoneycombers.com-best-water-activities-hong-kong_1.csv' has been created and saved successfully in 'all_csv_outputs'.
+2024-11-15 16:31:41,785 - INFO - Raw HTML content saved to previous_scrapes/thehoneycombers.com-best-water-activities-hong-kong_1.html
+2024-11-15 16:31:41,788 - INFO - Appended ingestion summary for https://thehoneycombers.com/hong-kong/best-water-activities-hong-kong/ to IngestionSummary.csv
+2024-11-15 16:31:41,792 - INFO - 9 rows appended to CollectedData.csv.
